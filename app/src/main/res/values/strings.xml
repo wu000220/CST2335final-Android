@@ -25,6 +25,39 @@
     <string name="error_fetching_definitions">Error fetching definitions: %1$s</string>
     <string name="error_parsing_json_response">Error parsing JSON response: %1$s</string>
 
+    <!--recipe search-->
+    <string name="Lookup" translatable="false">Lookup</string>
+    <string name="recipe_validate_error_msg">Your enter text is not validate</string>
+    <string name="recipe_validate_correct_msg">Your enter text is validate</string>
+    <string name="recipe_save_alert">Do you want to save as favorite?</string>
+    <string name="recipe_no">NO</string>
+    <string name="recipe_yes">YES</string>
+    <string name="recipe_add_alert">You add it to your Favorites.</string>
+    <string name="recipe_search_hint">Enter Here</string>
+    <string name="recipe_search_button">SEARCH</string>
+    <string name="view_favorite_recipes_button">SAVED FAVORITE RECIPES</string>
+    <string name="recipe_source_url">Source Url</string>
+    <string name="recipe_result_title">Result Title</string>
+    <string name="recipe_remove_button">REMOVE</string>
+    <string name="recipe_remove_all">Do you want to clear all?</string>
+    <string name="recipe_clear_confirm">You already deleted all of your saved recipes</string>
+    <string name="recipe_remove_alert">Do you want to remove from saved?</string>
+    <string name="removed_alert">Deleted from your saved</string>
+    <string name="recipe_delete_all">Delete all saved recipe</string>
+    <string name="recipe_help">Recipe Instruction</string>
+    <string name="recipe_help_content">Click to show each recipe\'s Image, Summary and the source URL.          \n\n\"YES\" to remove from saved; \"NO\" to cancel.          \n\nThere is a garage icon in the up-right corner can clear all you saved.</string>
+    <string name="recipe_json_array_name">results</string>
+    <string name="recipe_json_title">title</string>
+    <string name="recipe_json_image">image</string>
+    <string name="recipe_json_id" translatable="false">id</string>
+    <string name="recipe_web_response">"Response: "</string>
+    <string name="recipe_utf_8" translatable="false">UTF-8</string>
+    <string name="recipe_search_content">SearchText</string>
+    <string name="error_encoding_recipe_name">Error encoding recipe name</string>
+    <string name="recipe_id" translatable="false">ID</string>
+    <string name="recipe_title">Title</string>
+    <string name="enterRecipeSearchText">Please enter</string>
+    <string name="recipe_search_text_contain_special_character">Search text contain special character</string>
 
 </resources>
 
