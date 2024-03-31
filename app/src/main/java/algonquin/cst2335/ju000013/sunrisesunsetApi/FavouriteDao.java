@@ -19,6 +19,8 @@ import java.util.List;
  * @Labsection: CST2335-011
  * @Creation Date: 2024-03-29
  *
+ *
+ *
  */
 @Dao
 public interface FavouriteDao {
