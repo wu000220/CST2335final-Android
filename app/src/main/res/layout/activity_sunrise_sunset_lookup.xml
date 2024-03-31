@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sunrisesunsetApi.SunriseSunsetLookupActivity">
+
+
+
+    <!-- EditText for Longitude -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/myToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="71dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myToolbar"
+        app:srcCompat="@drawable/sun"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/hintLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/hintLatitude"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/enterLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:autofillHints=""
+        android:hint="@string/enterLatitude"
+        android:inputType="text|numberSigned"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/hintLatitude"
+        app:layout_constraintTop_toBottomOf="@+id/hintLatitude" />
+
+    <EditText
+        android:id="@+id/enterLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="129dp"
+        android:hint="@string/enterLongitude"
+        android:inputType="text|numberSigned"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toStartOf="@+id/lookUpButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/hintLongitude"
+        app:layout_constraintTop_toBottomOf="@+id/hintLongitude"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/hintLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="@string/hintLongitude"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/enterLatitude"
+        app:layout_constraintTop_toBottomOf="@+id/enterLatitude"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/lookUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="@string/lookUpButton"
+        android:textColor="#FF000000"
+        app:layout_constraintBottom_toBottomOf="@+id/enterLongitude"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/favouriteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:text="@string/favouriteButton"
+        android:textColor="#FF000000"
+        app:layout_constraintEnd_toStartOf="@+id/lookUpButton"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/lookUpButton"
+        app:layout_constraintStart_toStartOf="@+id/enterLongitude"
+        app:layout_constraintTop_toBottomOf="@id/enterLongitude">
+
+        <TextView
+            android:id="@+id/showCase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/showCase"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="41dp" />
+
+
+
+        <TextView
+            android:id="@+id/showDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showDate"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/showSunrise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showSunrise"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/showSunset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showSunset"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/showLatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showLatitude"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/showLongitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showLongitude"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/saveLocationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saveLocationButton"
+            android:textColor="#FF000000"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="501dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import algonquin.cst2335.ju000013.sunrisesunsetApi.SunriseSunsetLookupActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -28,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.item_1){
-
+            Intent intent = new Intent(MainActivity.this, SunriseSunsetLookupActivity.class);
+            startActivity(intent);
         } else if (id == R.id.item_2) {
 
         } else if (id == R.id.item_3) {
@@ -61,6 +63,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this, DictionaryApiActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        buttonSunriseSunsetLookup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SunriseSunsetLookupActivity.class);
                 startActivity(intent);
             }
         });

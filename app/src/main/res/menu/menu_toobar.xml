@@ -25,4 +25,9 @@
         android:icon="@drawable/song"
         android:title="Deezer song search api"
         app:showAsAction="always" />
+
+    <item
+        android:id="@+id/sunHelp"
+        android:title="Help"
+        android:text="@string/sunHelp" />
 </menu>
