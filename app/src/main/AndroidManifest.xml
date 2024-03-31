@@ -29,6 +29,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Other activities -->
+        <activity android:name=".DictionaryApiActivity" android:exported="false"/>
+        <activity android:name=".SavedWordsActivity" android:exported="true"/> <!-- Add this line -->
+
     </application>
 
 </manifest>
