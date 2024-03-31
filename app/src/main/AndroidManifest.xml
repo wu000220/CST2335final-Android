@@ -14,7 +14,12 @@
         android:theme="@style/Base.Theme.CST2335final"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
-
+        <activity
+            android:name=".recipeapi.SavedRecipeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".recipeapi.RecipeSearchActivity"
+            android:exported="false" />
         <activity
             android:name=".DictionaryApiActivity"
             android:exported="false" />
