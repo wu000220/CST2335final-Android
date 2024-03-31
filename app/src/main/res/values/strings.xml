@@ -59,5 +59,55 @@
     <string name="enterRecipeSearchText">Please enter</string>
     <string name="recipe_search_text_contain_special_character">Search text contain special character</string>
 
+
+    <!-- Sunrise Sunset lookup -->
+    <!-- Showcase title -->
+    <string name="showCase">Sunrise &amp; Sunset Showcase</string>
+    <string name="showDate">Date &amp; Time: </string>
+    <string name="showSunrise">Sunrise time: </string>
+    <string name="showSunset">Sunset time: </string>
+    <string name="showLatitude">Latitude: </string>
+    <string name="showLongitude">Longitude: </string>"
+
+    <!-- Show case Resault -->
+    <string name="resault_date_time">Date &amp; Time: %s</string>
+    <string name="resault_sunrise">Sunrise: %s</string>
+    <string name="resault_sunset">Sunset: %s</string>
+    <string name="resault_latitude">Latitude: %s</string>
+    <string name="resault_longitude">Longitude: %s</string>
+
+    <!--Buttons -->
+    <string name="lookUpButton">Lookup</string>
+    <string name="favouriteButton">Favourite Location</string>
+    <string name="saveLocationButton">Add to Favourite</string>
+    <string name="deleteButton">Delete</string>
+
+    <!-- Latitude, Longitude Format -->
+    <string name="hintLatitude">* Latitude input with 5 digits.</string>
+    <string name="hintLongitude">* Longitude input with 6 digits.</string>
+
+    <!-- Latitude, Longitude Hint -->
+    <string name="enterLongitude">Enter the longitude</string>
+    <string name="enterLatitude">Enter the latitude</string>
+
+    <!-- favourite_item -->
+    <string name="favouriteList">Favourite Location List</string>
+    <string name="tvDate">Current Date &amp; Time:  </string>
+    <string name="tvSunrise"> %s </string>
+    <string name="tvSunset"> %s </string>
+    <string name="tvLatitude"> Latitude: </string>
+    <string name="tvLongitude"> longitude: </string>
+
+    <!-- Toast, Snackbar, AlertDialog -->
+    <string name="invalidLatitude">Invalid Latitude, please enter again!</string>
+    <string name="invalidLongitude">Invalid Longitude, please enter again!</string>
+    <string name="locationAddedSuccessfully">Location Added Successfully!</string>
+    <string name="deleteLocationAlert">Do you want to delete this location?</string>
+    <string name="new_location_added">New location added!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sunHelp">This App is for check Sunrise and Sunset time. Follow the hint to enter Latitude and longitude. You will see the result in the showcase after click LOOKUP.</string>
+    <string name="location" translatable="false">" "</string>
+
 </resources>
 
