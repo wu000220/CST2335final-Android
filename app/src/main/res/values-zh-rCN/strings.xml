@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CST2335FinalProject</string>
+    <string name="recipe_search">菜谱查找</string>
+    <string name="recipe_validate_error_msg">输入文本验证不成功</string>
+    <string name="recipe_save_alert">您想保存吗？</string>
+    <string name="recipe_no">不是</string>
+    <string name="recipe_yes">是</string>
+    <string name="recipe_add_alert">已保存</string>
+    <string name="recipe_search_hint">请在此输入</string>
+    <string name="recipe_search_button">查找</string>
+    <string name="view_favorite_recipes_button">已保存喜爱菜谱</string>
+    <string name="recipe_source_url">网络地址</string>
+    <string name="recipe_result_title">结果名称</string>
+    <string name="recipe_remove_button">删除</string>
+    <string name="recipe_remove_all">您想全部删除吗？</string>
+    <string name="recipe_clear_confirm">您已清空保存的喜爱菜谱</string>
+    <string name="recipe_remove_alert">您想从数据库中删除吗？</string>
+    <string name="removed_alert">已删除</string>
+    <string name="recipe_delete_all">删除所有菜谱</string>
+    <string name="recipe_help">软件指南</string>
+    <string name="recipe_help_content">点击将出现每个菜谱的图片，名称和网络地址。         \n\n选择“是”将从保存中删除；选择“不是”将取消删除         \n\n右上角的垃圾桶小图标可以清空全部保存。</string>
+    <string name="recipe_json_array_name">结果</string>
+    <string name="recipe_json_title">名称</string>
+    <string name="recipe_json_image">图片</string>
+    <string name="recipe_web_response">"回应： "</string>
+    <string name="recipe_search_content">查找文本</string>
+    <string name="error_encoding_recipe_name">错误名称</string>
+    <string name="recipe_title">名称</string>
+    <string name="enterRecipeSearchText">请输入</string>
+    <string name="recipe_search_text_contain_special_character">输入文本含有特殊符号</string>
+    <string name="recipe_validate_correct_msg">输入文本验证成功</string>
+</resources>
