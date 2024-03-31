@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources>
+    <string name="app_name">CST2335FinalProject</string>
+    <string name="Final_Project">최종 프로젝트</string>
+
+    <string name="sunrise_sunset_lookup">일출 및 일몰 조회</string>
+    <string name="recipe_search">레시피 검색</string>
+    <string name="dictionary_api">사전 API</string>
+    <string name="deezer_song_search_api">Deezer 노래 검색 API</string>
+
+    <string name="hint_enter_word">단어 입력</string>
+    <string name="search">검색</string>
+    <string name="save">저장</string>
+    <string name="save_all">모두 저장</string>
+    <string name="go_to_saved">저장된 단어로 이동</string>
+    <string name="go_back">돌아가기</string>
+    <string name="delete_selected">선택 삭제</string>
+
+    <string name="help_dialog_title">도움말</string>
+    <string name="help_dialog_message">"1. 검색: 검색창에 찾고 싶은 단어를 입력하고 '검색'을 탭하세요.\n2. 정의 보기: 검색창 아래에 정의 및 관련 정보가 표시됩니다.\n3 . 저장: 나중에 사용할 수 있도록 정의 옆에 있는 '저장' 버튼을 탭하여 저장하세요.\n4. 삭제: 저장된 단어 보기에서 삭제하려는 단어를 선택하고 '선택 항목 삭제'를 탭하세요."</string>
+
+    <string name="please_enter_a_word">검색할 단어를 입력하세요.</string>
+    <string name="definition_saved">정의가 저장되었습니다.</string>
+    <string name="words_deleted">선택한 단어가 삭제되었습니다.</string>
+
+    <string name="error_fetching_definitions">E정의를 가져오는 중에 오류가 발생했습니다: %1$s</string>
+    <string name="error_parsing_json_response">JSON 응답을 구문 분석하는 중에 오류가 발생했습니다.: %1$s</string>
+
+
+</resources>
