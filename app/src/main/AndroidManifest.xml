@@ -35,6 +35,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity
+            android:name=".songApi.SongSearchActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".songApi.SongDetailsActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".songApi.SongFavoritesActivity"
+            android:exported="false">
+        </activity>
+
+        <!-- Other activities -->
+        <activity android:name=".DictionaryApiActivity" android:exported="false"/>
+        <activity android:name=".SavedWordsActivity" android:exported="true"/> <!-- Add this line -->
+
+
     </application>
 
 </manifest>
