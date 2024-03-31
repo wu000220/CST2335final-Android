@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import algonquin.cst2335.ju000013.recipeapi.RecipeSearchActivity;
 import algonquin.cst2335.ju000013.songApi.SongSearchActivity;
 
 
@@ -31,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.item_1){
 
         } else if (id == R.id.item_2) {
-
+            Intent intent = new Intent(MainActivity.this, RecipeSearchActivity.class);
+            startActivity(intent);
         } else if (id == R.id.item_3) {
             Intent intent = new Intent(MainActivity.this, DictionaryApiActivity.class);
             startActivity(intent);
@@ -57,6 +59,10 @@ public class MainActivity extends AppCompatActivity {
         Toolbar tool_bar = findViewById(R.id.toolbar);
         setSupportActionBar(tool_bar);
 
+        buttonRecipeSearch.setOnClickListener(click ->{
+            Intent intent = new Intent(MainActivity.this, RecipeSearchActivity.class);
+            startActivity(intent);
+        });
 
         buttonDictionaryApi.setOnClickListener(new View.OnClickListener() {
             @Override
