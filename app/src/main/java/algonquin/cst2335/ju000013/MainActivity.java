@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import algonquin.cst2335.ju000013.songApi.SongSearchActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -35,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, DictionaryApiActivity.class);
             startActivity(intent);
         } else if (id == R.id.item_4) {
-
+            Intent intent = new Intent(MainActivity.this, SongSearchActivity.class);
+            startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
     }
@@ -49,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         Button buttonSunriseSunsetLookup = findViewById(R.id.button1);
         Button buttonRecipeSearch = findViewById(R.id.button2);
         Button buttonDictionaryApi = findViewById(R.id.button3);
-        Button buttonDeezerSongSearchApi = findViewById(R.id.button4);
+        Button buttonSongSearch = findViewById(R.id.button4);
 
 
         Toolbar tool_bar = findViewById(R.id.toolbar);
@@ -61,6 +63,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this, DictionaryApiActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        /**
+         * Set click listener for Deezer Song Search API
+         */
+        buttonSongSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                /**
+                 * Replace DeezerSongSearchApiActivity.class with the actual class name for this activity
+                 */
+                Intent intent = new Intent(MainActivity.this, SongSearchActivity.class);
                 startActivity(intent);
             }
         });

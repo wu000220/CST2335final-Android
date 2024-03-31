@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CST2335FinalProject</string>
+    <string name="typeArtistName">输入歌手姓名</string>
+    <string name="duration">歌曲长度</string>
+    <string name="title">歌曲名称</string>
+    <string name="albumNameDetail">专辑名称</string>
+    <string name="addFavorite">加入收藏</string>
+    <string name="showFavorites">所有收藏曲目</string>
+    <string name="deleteFavorite">取消收藏</string>
+    <string name="albumCover">专辑封面</string>
+    <string name="searchButton">搜索</string>
+    <string name="OK">好的</string>
+    <string name="help_title">帮助</string>
+    <string name="instructions">使用说明：搜索歌手，以获取歌曲名单，查看歌曲说明，添加收藏。</string>
+    <string name="itemClicked">所选歌曲: </string>
+    <string name="songAdded">歌曲加入收藏</string>
+    <string name="songAlreadyExist">歌曲已在收藏中</string>
+    <string name="songDeleted">歌曲取消收藏</string>
+    <string name="enterLettersOnly">请输入字母</string>
+    <string name="validationPassed">验证通过</string>
+    <string name="validation">验证</string>
+</resources>

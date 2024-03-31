@@ -26,6 +26,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".songApi.SongSearchActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".songApi.SongDetailsActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".songApi.SongFavoritesActivity"
+            android:exported="false">
+        </activity>
+
     </application>
 
 </manifest>
