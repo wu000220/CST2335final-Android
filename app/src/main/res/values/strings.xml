@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CST2335FinalProject</string>
+    <string name="Final_Project">Final Project</string>
+
+    <string name="sunrise_sunset_lookup">Sunrise &amp; Sunset Lookup</string>
+    <string name="recipe_search">Recipe Search</string>
+    <string name="dictionary_api">Dictionary API</string>
+    <string name="deezer_song_search_api">Deezer Song Search API</string>
+
+    <string name="hint_enter_word">Enter a word</string>
+    <string name="search">Search</string>
+    <string name="save">Save</string>
+    <string name="save_all">Save All</string>
+    <string name="go_to_saved">Go to Saved Words</string>
+    <string name="go_back">Go Back</string>
+    <string name="delete_selected">Delete Selected</string>
+
+    <string name="help_dialog_title">Help</string>
+    <string name="help_dialog_message">1. Search: Type the word you want to look up in the search bar and tap \'Search\'.\n2. View Definitions: Definitions and related information will appear below the search bar.\n3. Save All: Tap the \'Save All\' button to save all definitions for the searched word.\n4. Go to Saved Words: Tap to view saved words and their definitions.\n5. Delete: In the saved words view, select the words you wish to delete and tap \'Delete Selected\'.</string>
+
+    <string name="please_enter_a_word">Please enter a word to search.</string>
+    <string name="definition_saved">Definition saved.</string>
+    <string name="words_deleted">Selected words deleted.</string>
+
+    <string name="error_fetching_definitions">Error fetching definitions: %1$s</string>
+    <string name="error_parsing_json_response">Error parsing JSON response: %1$s</string>
+
+
+</resources>
+
