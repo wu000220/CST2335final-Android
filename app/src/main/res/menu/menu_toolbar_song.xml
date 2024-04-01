@@ -26,4 +26,9 @@
         android:title="Deezer song search api"
         app:showAsAction="always" />
 
+    <item
+        android:id="@+id/item_help"
+        android:icon="@drawable/help"
+        android:title="Help"
+        app:showAsAction="never" />
 </menu>
