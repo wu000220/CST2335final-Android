@@ -162,7 +162,7 @@ public class SunriseSunsetLookupActivity extends AppCompatActivity {
      */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_toobar, menu);
+        getMenuInflater().inflate(R.menu.sun_toobar, menu);
         return true;
     }
 
