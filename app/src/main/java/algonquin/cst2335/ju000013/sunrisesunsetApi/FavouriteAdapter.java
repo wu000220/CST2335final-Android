@@ -24,6 +24,7 @@ import algonquin.cst2335.ju000013.R;
  * This class handles the display and management of favourite locations,
  * including deletion and adding new items.
  *
+ *
  * @author Zhaohong Huang
  * @Labsection: CST2335-011
  * @Creation Date: 2024-03-29
