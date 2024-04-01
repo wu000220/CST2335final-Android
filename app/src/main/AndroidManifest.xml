@@ -17,13 +17,23 @@
         <activity
             android:name=".sunrisesunsetApi.FavouritePageActivity"
             android:exported="false" />
+      
+        <activity
+            android:name=".recipeapi.SavedRecipeActivity"
+            android:exported="false" />
+      
+        <activity
+            android:name=".recipeapi.RecipeSearchActivity"
+            android:exported="false" />
+      
         <activity
             android:name=".sunrisesunsetApi.SunriseSunsetLookupActivity"
-
             android:exported="false" />
+      
         <activity
             android:name=".DictionaryApiActivity"
             android:exported="false" />
+      
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -33,6 +43,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity
+            android:name=".songApi.SongSearchActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".songApi.SongDetailsActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".songApi.SongFavoritesActivity"
+            android:exported="false">
+        </activity>
+
+        <!-- Other activities -->
+        <activity android:name=".DictionaryApiActivity" android:exported="false"/>
+        <activity android:name=".SavedWordsActivity" android:exported="true"/> <!-- Add this line -->
+
+
     </application>
 
 </manifest>
