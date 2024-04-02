@@ -2,6 +2,10 @@
 <resources>
     <string name="app_name">CST2335FinalProject</string>
 
+    <string name="deezer_song_search_api">歌曲搜索</string>
+    <string name="sunrise_sunset_lookup">日出日落搜索</string>
+    <string name="dictionary_api">字典搜索</string>
+
     <string name="typeArtistName">输入歌手姓名</string>
     <string name="duration">歌曲长度</string>
     <string name="title">歌曲名称</string>
@@ -41,9 +45,6 @@
     <string name="recipe_delete_all">删除所有菜谱</string>
     <string name="recipe_help">软件指南</string>
     <string name="recipe_help_content">点击将出现每个菜谱的图片，名称和网络地址。         \n\n选择“是”将从保存中删除；选择“不是”将取消删除         \n\n右上角的垃圾桶小图标可以清空全部保存。</string>
-    <string name="recipe_json_array_name">结果</string>
-    <string name="recipe_json_title">名称</string>
-    <string name="recipe_json_image">图片</string>
     <string name="recipe_web_response">"回应： "</string>
     <string name="recipe_search_content">查找文本</string>
     <string name="error_encoding_recipe_name">错误名称</string>
@@ -58,11 +59,11 @@
     <string name="showSunset">日落时间</string>
     <string name="showLatitude">纬度：</string>
     <string name="showLongitude">经度：</string>
-    <string name="resault_date_time">日期和时间：</string>
-    <string name="resault_sunrise">日落：</string>
-    <string name="resault_sunset">日出：</string>
-    <string name="resault_latitude">纬度：</string>
-    <string name="resault_longitude">经度：</string>
+<!--    <string name="resault_date_time">日期和时间：</string>-->
+<!--    <string name="resault_sunrise">日落：</string>-->
+<!--    <string name="resault_sunset">日出：</string>-->
+<!--    <string name="resault_latitude">纬度：</string>-->
+<!--    <string name="resault_longitude">经度：</string>-->
     <string name="lookUpButton">查询</string>
     <string name="favouriteButton">地点收藏夹</string>
     <string name="saveLocationButton">添加地点</string>

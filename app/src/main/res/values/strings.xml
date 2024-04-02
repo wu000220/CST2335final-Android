@@ -68,9 +68,9 @@
     <string name="recipe_delete_all">Delete all saved recipe</string>
     <string name="recipe_help">Recipe Instruction</string>
     <string name="recipe_help_content">Click to show each recipe\'s Image, Summary and the source URL.          \n\n\"YES\" to remove from saved; \"NO\" to cancel.          \n\nThere is a garage icon in the up-right corner can clear all you saved.</string>
-    <string name="recipe_json_array_name">results</string>
-    <string name="recipe_json_title">title</string>
-    <string name="recipe_json_image">image</string>
+    <string name="recipe_json_array_name" translatable="false">results</string>
+    <string name="recipe_json_title" translatable="false">title</string>
+    <string name="recipe_json_image" translatable="false">image</string>
     <string name="recipe_json_id" translatable="false">id</string>
     <string name="recipe_web_response">"Response: "</string>
     <string name="recipe_utf_8" translatable="false">UTF-8</string>
