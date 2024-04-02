@@ -7,6 +7,12 @@ import androidx.room.Query;
 
 import java.util.List;
 
+/** This page is a class with different methods to manipulate database.
+ * It can insert, show, and delete.
+ *
+ * @author Fei Wu
+ * @version 1.0
+ * */
 @Dao
 public interface RecipeSearchedDAO {
     @Insert
