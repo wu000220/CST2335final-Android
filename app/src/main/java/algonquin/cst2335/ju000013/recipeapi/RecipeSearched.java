@@ -3,6 +3,14 @@ package algonquin.cst2335.ju000013.recipeapi;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
+
+/** This page is a entity with details.
+ * It contains every variable which is the column in database, constructors and
+ * get set methods.
+ *
+ * @author Fei Wu
+ * @version 1.0
+ * */
 @Entity
 public class RecipeSearched {
 
