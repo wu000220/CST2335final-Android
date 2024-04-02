@@ -52,4 +52,35 @@
     <string name="recipe_search_text_contain_special_character">输入文本含有特殊符号</string>
     <string name="recipe_validate_correct_msg">输入文本验证成功</string>
 
+    <string name="showCase">日出日落显示框</string>
+    <string name="showDate">时间：</string>
+    <string name="showSunrise">日出时间：</string>
+    <string name="showSunset">日落时间</string>
+    <string name="showLatitude">纬度：</string>
+    <string name="showLongitude">经度：</string>
+    <string name="resault_date_time">日期和时间：</string>
+    <string name="resault_sunrise">日落：</string>
+    <string name="resault_sunset">日出：</string>
+    <string name="resault_latitude">纬度：</string>
+    <string name="resault_longitude">经度：</string>
+    <string name="lookUpButton">查询</string>
+    <string name="favouriteButton">地点收藏夹</string>
+    <string name="saveLocationButton">添加地点</string>
+    <string name="deleteButton">删除</string>
+    <string name="hintLatitude">输入5位数字的纬度</string>
+    <string name="hintLongitude">输入5位数字的经度</string>
+    <string name="enterLongitude">输入经度</string>
+    <string name="enterLatitude">输入纬度</string>
+    <string name="favouriteList">地点收藏单</string>
+    <string name="tvDate">当前日期和时间</string>
+    <string name="tvLatitude">纬度：</string>
+    <string name="tvLongitude">经度：</string>
+    <string name="invalidLatitude">纬度错误，请重新输入！</string>
+    <string name="invalidLongitude">经度错误，请重新输入！</string>
+    <string name="locationAddedSuccessfully">地点添加成功！</string>
+    <string name="deleteLocationAlert">你要删除地点吗？</string>
+    <string name="new_location_added">成功添加新地点！</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="sunHelp">本应用程序用于查看日出日落时间。根据提示输入纬度和经度。点击 \"查找 \"后，您将在显示屏上看到结果。</string>
 </resources>
